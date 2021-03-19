@@ -1,0 +1,32 @@
+.navbar-wrapper {
+    display: flex;
+    // border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-logo {
+    .Logo{
+        width: 60px;
+        height: 60px;
+        // border: 1px solid black;
+        
+    }
+}
+.nav-menu{
+    display: flex;
+    // border: 1px solid black;
+}
+
+@media(max-width:800px){
+    .navbar-wrapper{
+        justify-content: center;
+        flex-direction: column;
+        .nav-menu{
+            text-align: center;
+            flex-direction: column;
+            // border: 1px solid black;
+        }
+    }
+}
